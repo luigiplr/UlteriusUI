@@ -1,0 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    overflow: none;
+    position: fixed;
+    background-color: #202B33;
+}
