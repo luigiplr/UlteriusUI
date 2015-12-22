@@ -1,1 +1,10 @@
-.page {}
+.page {
+    width: calc(100vw - 230px);
+    right: 0;
+    height: 100%;
+    position: absolute
+}
+
+.page section {
+    margin-bottom: 20px;
+}

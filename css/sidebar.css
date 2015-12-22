@@ -12,6 +12,10 @@
     margin-bottom: 15px
 }
 
+.sidebar h1:first-of-type {
+    margin-top: 20px;
+}
+
 .sidebar ul {
     margin-bottom: 35px;
 }
@@ -25,4 +29,24 @@
     height: 20px;
     line-height: 20px;
     font-weight: 500;
+}
+
+.sidebar ul li.active {
+    color: #239ae3;
+}
+
+.sidebar ul li i {
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #5B6874;
+}
+
+.sidebar ul li i p {
+    color: #202B33;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
 }
