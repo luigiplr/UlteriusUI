@@ -8,3 +8,10 @@ body {
     position: fixed;
     background-color: #202B33;
 }
+
+.main {
+    width: 100vw;
+    position: absolute;
+    top: 30px;
+    height: calc(100vh - 30px);
+}
